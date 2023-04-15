@@ -6,8 +6,7 @@ default_packages:
   - htop
   - tmux
 
-default_editor:
-  - /usr/bin/vim.basic
+default_editor: "/usr/bin/vim.basic"
 
 motd_ascii_art: "     _              _ _     _\n    / \\   _ __  ___(_) |__ | | ___\n   / _ \\ | '_ \\/ __| | '_ \\| |/ _ \\\n  / ___ \\| | | \\__ \\ | |_) | |  __/\n /_/   \\_\\_| |_|___/_|_.__/|_|\\___|\n"
 motd_info:
