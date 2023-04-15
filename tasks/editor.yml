@@ -8,5 +8,5 @@
     mode: 0444
 
 - name: Configure vim as default editor
-  command: update-alternatives --set editor /usr/bin/vim.basic
+  command: "update-alternatives --set editor {{ default_editor }}"
   changed_when: false
